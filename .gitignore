@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# PHP
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.*
+
+# Logs / temp
+*.log
+tmp/
+cache/
