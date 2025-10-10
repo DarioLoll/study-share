@@ -1,4 +1,5 @@
 This guide explains hot to set up hosting on a custom domain through a cloudflare tunnel (with the apache still running on your linux server 24/7).
+If you haven't already, you'll need to set up the project locally first. Here's the [guide](apache-linux.md)
 
 ---
 ## 1. Acquire a domain

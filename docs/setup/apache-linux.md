@@ -1,6 +1,6 @@
 This guide explains how to set up this project on linux (specifically ubuntu) with apache (and mariadb) locally. 
 For MacOS setup, see [mamp-macos.md](mamp-macos.md)
-For Windows setup, see [xammp-windows.md](xammp-windows.md)
+For Windows setup, see [xampp-windows.md](xampp-windows.md)
 For setting up hosting with your custom domain, see [hosting-linux.md](hosting-linux.md)
 
 ---
