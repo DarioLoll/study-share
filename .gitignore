@@ -8,6 +8,7 @@
 # PHP
 vendor/
 composer.lock
+package.xml
 
 # Environment files
 .env
