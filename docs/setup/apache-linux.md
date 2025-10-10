@@ -55,7 +55,22 @@ sudo mysql -u root -p
 ```
 
 ---
-## 4. Clone the repo
+## 4.  Create a user for PHP
+
+Log into the database
+```bash
+sudo mysql -u root -p
+```
+
+Run the following code and replace `'yourpassword'`
+```sql
+CREATE USER 'studyshare'@'localhost' IDENTIFIED BY 'yourpassword';
+GRANT ALL PRIVILEGES ON study_share.* TO 'studyshare'@'localhost';
+FLUSH PRIVILEGES;
+```
+
+---
+## 5. Clone the repo
 
 Clone the repo into the `/var/www/html/` directory
 ```bash
@@ -69,7 +84,7 @@ git clone git@github.com:DarioLoll/study-share.git
 ```
 
 ---
-## 5. Configure Apache
+## 6. Configure Apache
 
 Give Apache read, write and execute rights:
 ```bash
@@ -103,6 +118,28 @@ sudo systemctl reload apache2
 Test in the browser: `http://localhost/`
 
 ---
-## 6. Import database
+## 7. Configure database connection for PHP
+
+Navigate to `src/config/`
+Create a copy of the file `config.example.php` and name it `config.php`
+```bash
+cp config.example.php config.php
+```
+
+Open `config.php` and change the variables as needed:
+```php
+<?php
+return [
+	'host'    => 'localhost',
+	'port'    => 3306,
+	'db'      => 'study_share',
+	'user'    => 'studyshare',   // the username you set at step 4
+	'pass'    => 'yourpassword', // the password you set at step 4
+	'charset' => 'utf8mb4',
+];
+```
+
+---
+## 8. Migrate/import database
 
 **TODO**
