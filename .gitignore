@@ -4,6 +4,7 @@
 # IDEs
 .vscode/
 .idea/
+.obsidian
 
 # PHP
 vendor/
