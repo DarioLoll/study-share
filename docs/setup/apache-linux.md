@@ -143,3 +143,8 @@ return [
 ## 8. Migrate/import database
 
 **TODO**
+
+---
+## 9. Set up Visual Studio Code
+
+See [this guide](vscode.md) for setting up html/css/php intellisense and hot reload with vscode

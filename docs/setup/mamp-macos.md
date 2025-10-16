@@ -74,19 +74,11 @@ return [
 ```
 
 --- 
-## 7. Configure PhpStorm (optional)
-
-If you're using PhpStorm as your IDE:
-In PhpStorm:
-1. Go to **Settings → PHP → CLI Interpreter → + → Add Local PHP Interpreter**
-2. Point to MAMP’s PHP binary, e.g.:
-```bash
-/Applications/MAMP/bin/php/php8.x.x/bin/php
-```
-
---- 
-## 8. Test
+## 7. Test
 
 Open `http://localhost:8888/` in the browser
 
-**You're done!**
+---
+## 8. Set up Visual Studio Code
+
+See [this guide](vscode.md) for setting up html/css/php intellisense and hot reload with vscode

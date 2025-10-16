@@ -84,18 +84,11 @@ return [
   You can check the MySQL port in the XAMPP Control Panel, under "Config" > "my.ini".
 
 ---
-## 7. Configure PhpStorm (Optional)
-
-If using PhpStorm as your IDE:
-1. Go to ****Settings → PHP → CLI Interpreter → + → Add Local PHP Interpreter****
-2. Browse to your XAMPP PHP executable, for example:
-```
-C:\xampp\php\php.exe
-```
-
----
 ## 8. Test
 
 Open `http://localhost/` in your browser.
 
-****You’re done!****
+--- 
+## 9. Set up Visual Studio Code
+
+See [this guide](vscode.md) for setting up html/css/php intellisense and hot reload with vscode
