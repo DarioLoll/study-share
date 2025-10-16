@@ -23,9 +23,11 @@ Follow the installation instructions on [https://code.visualstudio.com/](https:/
 ```
 6. For bootstrap support, you need to include the same CDN link as in the `<head>`in the `index.php`. So add the following to the same `settings.json` (Change the link if necessary)
 ```json
+...
 "css.styleSheets": [
 	"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
 ],
+...
 ```
 
 ---
