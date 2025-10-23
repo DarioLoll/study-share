@@ -6,6 +6,7 @@ study-share/
 │   ├── config/         # DB config, constants, environment setup
 │   ├── lib/            # Helper functions or classes (auth.php, db.php, etc.)
 │   └── public/         # Publicly accessible files (index.php, css/, images/)
+│   └── domain/         # Business logic (User, Note, etc.)
 │
 ├── migrations/         # SQL migration files to keep DB schema in sync
 │   ├── 001-create-users.sql    # Example
